@@ -24,8 +24,11 @@ body {
 }
 
 #barcode {
+    max-width: 100%; /* Ensures the barcode doesn't exceed the card width */
+    height: auto; /* Maintain aspect ratio */
     margin-top: 10px;
 }
+
 
 #barcodeNumber {
     margin-top: 5px;
