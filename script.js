@@ -7,5 +7,5 @@ function generateBarcode() {
         height: 40,
         displayValue: false
     });
-    document.getElementById('barcodeNumber').textContent = libraryNumber; // Sets the text below the barcode
+    document.getElementById('barcodeNumber').textContent = libraryNumber;
 }
