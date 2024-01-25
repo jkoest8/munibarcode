@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Municipal Identification Card</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+</head>
+<body>
+    <div id="card-container">
+        <label for="libraryNumber">Enter library card number:</label>
+        <input type="text" id="libraryNumber" oninput="generateBarcode()">
+
+        <div id="card">
+            <p>City of Faketown, Fakestate</p>
+            <p>Municipal Identification Card</p>
+            <p>This card is a non-government ID and is not valid for driving, voting or purchase of alcohol, tobacco or firearms.</p>
+            <svg id="barcode"></svg>
+            <p id="barcodeNumber"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
