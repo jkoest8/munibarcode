@@ -13,15 +13,24 @@ body {
 
 #card {
     border: 1px solid black;
-    padding: 20px;
+    padding: 15px;
     margin-top: 20px;
     width: 3.375in;
     height: 2.125in;
     background-color: white;
     display: inline-block;
     text-align: center;
+    box-sizing: border-box; /* Ensures padding doesn't affect size */
+    position: relative; /* Needed for positioning children */
 }
 
 #barcode {
-    margin: 10px auto;
+    margin-top: 15px; /* Adjust spacing */
+    margin-bottom: 5px; /* Adjust spacing */
+}
+
+#barcodeNumber {
+    margin-top: 5px; /* Adjust spacing */
+    font-size: 12px; /* Adjust font size as needed */
+    word-break: break-all; /* Ensures the number fits in the card */
 }
