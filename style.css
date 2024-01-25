@@ -13,14 +13,15 @@ body {
 
 #card {
     border: 1px solid black;
-    padding: 15px;
+    padding: 10px; /* Adjust padding */
     margin-top: 20px;
-    width: 3.375in;
-    height: 2.125in;
+    width: 3.375in; /* Adjust width if necessary */
+    height: 2.125in; /* Adjust height if necessary */
     background-color: white;
     display: inline-block;
     text-align: center;
     box-sizing: border-box;
+    overflow: hidden; /* Add this to prevent content from spilling out */
 }
 
 #barcode {
@@ -33,4 +34,9 @@ body {
 #barcodeNumber {
     margin-top: 5px;
     font-size: 12px;
+}
+
+#card p {
+    margin: 4px 0; /* Reduce margin between text lines */
+    font-size: 12px; /* Adjust font size */
 }
