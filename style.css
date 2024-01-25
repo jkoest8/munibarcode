@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#card-container {
+    text-align: center;
+}
+
+#card {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    width: 3.375in;
+    height: 2.125in;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+#barcode {
+    margin: 10px auto;
+}
